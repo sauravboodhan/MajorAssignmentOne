@@ -1,0 +1,79 @@
+body {
+    background-image: linear-gradient(#f41111, #e36d13);
+}
+/* navigation bar */
+.topnav {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Georgia';
+    text-align: center;
+    word-spacing: 60px;
+    color: #ffffff
+}
+/* header, website title */
+h1 {
+    font-family: 'Georgia';
+    font-stretch: extra-expanded;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 125px;
+    color: #ffffff;
+    text-align: center;
+}
+h2 {
+    color: #e2e8b2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-align: center
+}
+h3 {
+    color:#e2e8b2;
+    text-align: center;
+    font-size: 35px;
+    color: #e2e8b2;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* this is for single image layout */
+img {
+    max-width: 80%;
+    height: auto;
+    text-align: center
+}
+div { 
+    text-align: center;
+}
+h4 {
+    text-align: center;
+    font-size: 35px;
+    color: #e2e8b2;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+    color: #e2e8b2;
+    text-indent: 6%;
+    font-size: 28px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h5 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    color: #ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* this is for artist artwork highlights */
+.row {
+    display: flex;
+}
+.column {
+    flex: 50%;
+    display: flex;
+}
+.name {
+    color: #e2e8b2;
+    font-size: 50px;
+    font-family: 'Lobster';
+}
